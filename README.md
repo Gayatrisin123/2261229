@@ -1,7 +1,6 @@
 # AffordMed Frontend Test Submission
 
-> ✅ Track: **Frontend Track Only**  
-> 📁 Folder: `Frontend Test Submission/`  
+> ✅ Track: **Frontend Track Only**   
 > 🧑‍💻 Candidate: Gayatri Singh  
 > 🆔 Roll Number: 2261229  
 > 🔗 GitHub Username: gayatrisingh123  
