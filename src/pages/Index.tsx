@@ -21,6 +21,7 @@ import {
   Analytics,
   Link as LinkIcon,
 } from "@mui/icons-material";
+import { log } from '@/utils-middleware/logs';
 import { useNavigate } from "react-router-dom";
 import { toast } from "sonner";
 import { URLService } from "../services/URLService";
@@ -42,6 +43,13 @@ interface ShortenedURL {
   createdAt: Date;
   expiresAt: Date;
 }
+
+log({
+  stack: 'frontend',
+  level: 'info',
+  packageName: 'url-shortener',
+  message: 'URL Shortener component initialized',
+})
 
 const Index = () => {
   const navigate = useNavigate();
